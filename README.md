@@ -10,24 +10,24 @@ Cílem tohoto projektu bude vytvořit jednoduchou hru pro dva hráče, která bu
 
 # Rezistor
 
-![Obrázek rezistorů]()
+![Obrázek rezistorů](https://github.com/prokyber/r-duino-led-reaction-speed/blob/main/img/Screenshot%20from%202024-05-21%2008-14-17.png)
 
 Rezistor je pasivní elektrická součástka, která se v obvodu projevuje zvýšením odporu. Nejčastěji se do obvodu přidává za účelem snížení proudu na potřebnou úroveň. Pro výpočet funkce jednotlivého rezistoru můžeme použít Ohmův zákon (proud = napětí / odpor), avšak chceme-li použít rezistorů víc, je třeba je správně "zařadit". Pro bližší pochopení tohoto tématu si můžete přečíst třeba tento tutoriál.
 
 # Tlačítko
 
 <table>
-  <tr>
+  <tr align="center">
     <td>
-      <img alt="Rezistor" src="https://content.instructables.com/FA4/F7RR/LUQYQ1QX/FA4F7RRLUQYQ1QX.jpg?auto=webp&frame=1&fit=bounds&md=8c3d780f23dda68fab3b267d3c51cdd6">
+      <img alt="Rezistor" src="https://github.com/prokyber/r-duino-led-reaction-speed/blob/main/img/FKQ6Q43LUQYQ0NW.webp" style="Height: 34vh;">
     </td>
     <td>
-      <img alt="Rezistor" src="https://content.instructables.com/FA4/F7RR/LUQYQ1QX/FA4F7RRLUQYQ1QX.jpg?auto=webp&frame=1&fit=bounds&md=8c3d780f23dda68fab3b267d3c51cdd6">
+      <img alt="Rezistor" src="https://github.com/prokyber/r-duino-led-reaction-speed/blob/main/img/Tlacitko_Schema.webp" style="Height: 34vh;">
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <img alt="Rezistor" src="https://content.instructables.com/FA4/F7RR/LUQYQ1QX/FA4F7RRLUQYQ1QX.jpg?auto=webp&frame=1&fit=bounds&md=8c3d780f23dda68fab3b267d3c51cdd6">
+      <img alt="Rezistor" src="https://github.com/prokyber/r-duino-led-reaction-speed/blob/main/img/F09ZYSRLUQYQ0NT.webp" style="Height: 51vh;">
     </td>
   </tr>
 </table>
@@ -41,6 +41,10 @@ Jedna věc, na kterou si dát pozor, je, že naše tlačítka mají čtyři nož
 V sadě vždy dodáváme pět tlačítek s hmatníky (ty barevné čepičky), jež jdou na tlačítko nasadit pro pohodlnější používání. 
 
 # Pull-down Rezistor
+
+| <img alt="Obrázek pulldown rezistoru" src="https://github.com/prokyber/r-duino-led-reaction-speed/blob/main/img/Pulldown_rezistor.webp" style="Height: 50vh;" /> | <img alt="Obrázek pullup rezistoru" src="https://github.com/prokyber/r-duino-led-reaction-speed/blob/main/img/Pullup_rezistor.webp" style="Height: 50vh;" /> |
+| ---- | ---- |
+
 Při čtení z pinů se občas setkáváme s problémem, kdy se aktivuje funkce, kterou jsme však nezamýšleli spustit. Toto se děje v důseldku šumu, který může vzniknout na nožičce, pokud není připojena k uzemnění. Proto je nutné připojit tzv. pull-down rezistor na tlačítko (viz obrázek nalevo). Tím zajistíme, že na nožičce bude nízké napětí, což nám pomůže eliminovat šum. Rezistor musí být zapojen, aby nedošlo ke zkratu, když stiskneme tlačítko. 
 
 Existuje také tzv. Pull-up rezistor (viz obrázek napravo). Zde se princip obrátí a do pinu nám prochází proud, dokud tlačítko není stisknuto. Poté proud přesměrujeme do uzemnění a na nožičce tak zůstane nízké napětí. 
@@ -53,6 +57,9 @@ pinMode(PIN, INPUT_PULLUP).
 Po zapnutí programu se spustí funkce zodpovědná za blikání LEDky. Tlačítka jsou připojena na tzv. Interrupt piny, které jsou schopny paralelně s během programu vnímat změny napětí. Po stištění libovolného tlačítka se spustí funkce zodpovědná za odpojení tlačítek, ukončení hry a vyhodnocení vítěze. 
 
 # Zapojení
+
+<img alt="Rezistor" src="https://github.com/prokyber/r-duino-led-reaction-speed/blob/main/img/Reakcni_zapojeni.webp" style="Height: 51vh;">
+
 (Šedé čáry značí nožičky rezistoru)
 
 
@@ -70,6 +77,9 @@ K uzemění budeme tlačítka potřebovat propojit s pinem GND. Toho lze dosáhn
 LEDky pro tento projekt zapojovat nemusíme, jsou totiž už vestavěnné v desce a ovládány programem.
 
 # Nastavení Desky
+
+<img alt="Nastavení desky" src="https://github.com/prokyber/r-duino-led-reaction-speed/blob/main/img/Reakcni_deska_nastaveni.webp" style="Height: 30vh;">
+
 Před tím než desku zapojíte do počítače, nastavte zabudovaný DIP switch na hodnotu ukázanou na obrázku. (světlé části jsou vystouplé výběžky přepínače) Poku jste již desku zpojili, je možné ji resetovat kovovým tlačítkem v levém horním rohu. Po zapojení by se měl program spustit.
 
 Budete-li chtít hru opakovat stačí zmáčknout výše zmíněné tlačítko RESTART.
