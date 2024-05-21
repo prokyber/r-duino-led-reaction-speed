@@ -1,12 +1,13 @@
-# Úvod
-Cílem tohoto projektu bude vytvořit jednoduchou hru pro dva hráče, která bude mít za úkol otestovat váš reakční čas. Bude se skládat ze dvou částí: tři LEDky a dvě tlačítka. Po spuštění programu začne prostřední LEDka blikat. Poté co třikrát blikne se na náhodně dlouhou dobu zhasne. Jakmile se opět rozsvítí, začíná soutěž o to, kdo stiskne své tlačítko jako první. Stiskne-li jeden z hráčů své tlačítko před tím, než se LEDka opět rozsvítí, automaticky prohraje. Po skončení hry se rozsvítí vítězova LEDka. Budete-li si přát hru opakovat, je možné ji restartovat stisknutím kovového tlačítka RESTART v levé horní části desky. 
+# Reakční hra s Ř-duino-LED
+Cílem tohoto projektu bude vytvořit jednoduchou hru pro dva hráče, která bude mít za úkol otestovat váš reakční čas. Bude se skládat ze dvou částí: tři LEDky a dvě tlačítka. Po spuštění programu začne prostřední LEDka blikat. Poté co třikrát blikne se na náhodně dlouhou dobu zhasne. Jakmile se opět rozsvítí, začíná soutěž o to, kdo stiskne své tlačítko jako první. Stiskne-li jeden z hráčů své tlačítko před tím, než se LEDka opět rozsvítí, automaticky prohraje. Po skončení hry se rozsvítí vítězova LEDka. Budete-li si přát hru opakovat, je možné ji restartovat stisknutím kovového tlačítka RESTART v levé horní části desky.
+Pokud jste si na desku nahráli jiný kód, původní program je ke stažení [zde](https://github.com/prokyber/Rduino-LED)
 
 # Součástky
 - Řduino-LED
-- tlačítka
-- rezistory
-- vodiče
-- nepájivé pole
+- [tlačítka](https://e-shop.prokyber.cz/spinace/mikrospinac-12-12-7-3mm/)
+- [rezistory](https://e-shop.prokyber.cz/pasivni-soucastky/rezistor/)
+- [vodiče](https://e-shop.prokyber.cz/kabely--vodice/dupont-kabel/)
+- [nepájivé pole](https://e-shop.prokyber.cz/konektory/nepajive-pole-170-pinu/)https://e-shop.prokyber.cz/konektory/nepajive-pole-170-pinu/
 
 # Rezistor
 
