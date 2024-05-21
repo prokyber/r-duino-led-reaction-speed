@@ -10,6 +10,12 @@ Cílem tohoto projektu bude vytvořit jednoduchou hru pro dva hráče, která bu
 
 # Rezistor
 
+![Obrázek rezistorů]()
+
+Rezistor je pasivní elektrická součástka, která se v obvodu projevuje zvýšením odporu. Nejčastěji se do obvodu přidává za účelem snížení proudu na potřebnou úroveň. Pro výpočet funkce jednotlivého rezistoru můžeme použít Ohmův zákon (proud = napětí / odpor), avšak chceme-li použít rezistorů víc, je třeba je správně "zařadit". Pro bližší pochopení tohoto tématu si můžete přečíst třeba tento tutoriál.
+
+# Tlačítko
+
 <table>
   <tr>
     <td>
@@ -18,19 +24,14 @@ Cílem tohoto projektu bude vytvořit jednoduchou hru pro dva hráče, která bu
     <td>
       <img alt="Rezistor" src="https://content.instructables.com/FA4/F7RR/LUQYQ1QX/FA4F7RRLUQYQ1QX.jpg?auto=webp&frame=1&fit=bounds&md=8c3d780f23dda68fab3b267d3c51cdd6">
     </td>
-    </td>
   </tr>
   <tr>
     <td colspan="2">
       <img alt="Rezistor" src="https://content.instructables.com/FA4/F7RR/LUQYQ1QX/FA4F7RRLUQYQ1QX.jpg?auto=webp&frame=1&fit=bounds&md=8c3d780f23dda68fab3b267d3c51cdd6">
     </td>
-    </td>
   </tr>
 </table>
 
-Rezistor je pasivní elektrická součástka, která se v obvodu projevuje zvýšením odporu. Nejčastěji se do obvodu přidává za účelem snížení proudu na potřebnou úroveň. Pro výpočet funkce jednotlivého rezistoru můžeme použít Ohmův zákon (proud = napětí / odpor), avšak chceme-li použít rezistorů víc, je třeba je správně "zařadit". Pro bližší pochopení tohoto tématu si můžete přečíst třeba tento tutoriál.
-
-# Tlačítko
 Tlačítko je jednou ze základních elektrických součástek. Jeho funkci snad již znají úplně všichni. Jak ale takové tlačítko vlastně funguje? Po stisknutí spojí obvod a umožní průchod elektrického proudu skrz tlačítko. Můžeme si ho představit jako lávku na laně, která přemosťuje dvě cesty. Poté, co tlačítko stiskneme, "lávka" se sníží, a "cestující" (elektřina) tak po ní mohou přejít. 
 
 Pro lepší představu se můžete podívat na obrázek s bílým pozadím, černými čarami a kruhy. Toto je způsob, jak se tlačítko zobrazuje na schématech elektrických obvodů, a přijde mi, že celkem dobře popisuje jeho fungování. 
