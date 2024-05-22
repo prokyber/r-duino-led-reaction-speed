@@ -4,10 +4,10 @@ Pokud jste si na desku nahráli jiný kód, původní program je ke stažení [z
 
 # Součástky
 - Řduino-LED
-- [tlačítka](https://e-shop.prokyber.cz/spinace/mikrospinac-12-12-7-3mm/)
-- [rezistory](https://e-shop.prokyber.cz/pasivni-soucastky/rezistor/)
-- [vodiče](https://e-shop.prokyber.cz/kabely--vodice/dupont-kabel/)
-- [nepájivé pole](https://e-shop.prokyber.cz/konektory/nepajive-pole-170-pinu/)https://e-shop.prokyber.cz/konektory/nepajive-pole-170-pinu/
+- [tlačítka](https://e-shop.prokyber.cz/spinace/mikrospinac-12-12-7-3mm/)  2x
+- [rezistory](https://e-shop.prokyber.cz/pasivni-soucastky/rezistor/)  2x
+- [vodiče](https://e-shop.prokyber.cz/kabely--vodice/dupont-kabel/)  7x
+- [nepájivé pole](https://e-shop.prokyber.cz/konektory/nepajive-pole-170-pinu/)
 
 # Rezistor
 
