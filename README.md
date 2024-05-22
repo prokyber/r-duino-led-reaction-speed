@@ -3,7 +3,7 @@ Cílem tohoto projektu bude vytvořit jednoduchou hru pro dva hráče, která bu
 Pokud jste si na desku nahráli jiný kód, původní program je ke stažení [zde](https://github.com/prokyber/Rduino-LED)
 
 # Součástky
-- Řduino-LED
+- Ř-duino-LED
 - [tlačítka](https://e-shop.prokyber.cz/spinace/mikrospinac-12-12-7-3mm/)  2x
 - [rezistory](https://e-shop.prokyber.cz/pasivni-soucastky/rezistor/)  2x
 - [vodiče](https://e-shop.prokyber.cz/kabely--vodice/dupont-kabel/)  7x
