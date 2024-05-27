@@ -61,9 +61,6 @@ Po zapnutí programu se spustí funkce zodpovědná za blikání LEDky. Tlačít
 
 <img alt="Rezistor" src="https://github.com/prokyber/r-duino-led-reaction-speed/blob/main/img/Reakcni_zapojeni.png" style="Height: 51vh;">
 
-(Šedé čáry značí nožičky rezistoru)
-
-
 Pin A5 je naším programem určen jako napájecí pin. Používáme ho tak proto, abychom zamezili situacím kdy jeden z hráčů stiskne tlačítko jen o chlup později než ten druhý a tím by v programu mohlo dojít k neočekávaným vzorcům chování. Proto jakmile dojde ke stisknutí kteréhokoliv z tlačítek, se nám okamžitě vypne napájecí pin a tlačítka tak přestanou plnit svou funkci.
 
 Propojíme tedy vodičem A5 a libovolný sloupek nepájivého pole, čímž si vytvoříme takovou křižovatku odkud pak následně budeme vést proud ke tlačítkům.
