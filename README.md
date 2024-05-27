@@ -59,7 +59,7 @@ Po zapnutí programu se spustí funkce zodpovědná za blikání LEDky. Tlačít
 
 # Zapojení
 
-<img alt="Rezistor" src="https://github.com/prokyber/r-duino-led-reaction-speed/blob/main/img/Reakcni_zapojeni.webp" style="Height: 51vh;">
+<img alt="Rezistor" src="https://github.com/prokyber/r-duino-led-reaction-speed/blob/main/img/Reakcni_Zapojeni.png" style="Height: 51vh;">
 
 (Šedé čáry značí nožičky rezistoru)
 
